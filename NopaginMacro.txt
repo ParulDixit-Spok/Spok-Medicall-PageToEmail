@@ -1,0 +1,7 @@
+' These lines will go to nopaging for this Queue 
+' in order to be able to correctly write to nopg75
+' that PageToEmail.exe will read and get e-mail addr and message to e-mail.
+
+%75
+Email paged message 
+%Z%N0+i%Zi=%I2i
